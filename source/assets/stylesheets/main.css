@@ -1,0 +1,8 @@
+@import 'leaflet/dist/leaflet.css';
+
+body { margin: 0; }
+.map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

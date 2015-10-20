@@ -1,72 +1,75 @@
 'use strict'
 
-import L from 'leaflet'
-import routeData from '../data/route.json'
+import React from 'react'
+import RaceMap from './components/RaceMap'
 
-const routePoints = routeData.map(routeDatum => routeDatum.point)
+import route from '../data/route.json'
 
-const earthsRadiusInMeters = 6371000
-const toRad = (value) => value * Math.PI / 180
-const toDeg = (value) => value / Math.PI * 180
-
-const map = L.map('map')
-
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-  attribution: '© OpenStreetMap contributors'
-}).addTo(map)
-
-const findDistanceRouteDatum = (distance) => {
-  return routeData.find((datum, index) => {
-    let next = routeData[index + 1]
-    return (distance > datum.totalDistance) &&
-      (distance < (next && next.totalDistance))
-  }) || routeData[routeData.length - 1]
-}
-
-const calcRiderPosition = (totalDistance) => {
-  let startDatum             = findDistanceRouteDatum(totalDistance)
-  let currentBearingDistance = totalDistance - startDatum.totalDistance
-  let point                  = startDatum.point
-  let lat                    = toRad(point[0])
-  let lon                    = toRad(point[1])
-  let bearing                = toRad(startDatum.bearing)
-  let angularDistance        = currentBearingDistance / earthsRadiusInMeters
-
-  let riderLat = Math.asin(
-    Math.sin(lat) * Math.cos(angularDistance) +
-    Math.cos(lat) * Math.sin(angularDistance) *
-    Math.cos(bearing)
-  )
-  let riderLon = Math.atan2(
-    Math.sin(bearing) * Math.sin(angularDistance) * Math.cos(lat),
-    Math.cos(angularDistance) - Math.sin(lat) * Math.sin(riderLat)
-  ) + lon
-
-  return [toDeg(riderLat), toDeg(riderLon)]
-}
-
-L.polyline(routePoints, {
-  color: 'red',
-  weight: 3
-}).addTo(map)
-
-var riderPositions = [
-  calcRiderPosition(2200000),
-  calcRiderPosition(1200000),
-  calcRiderPosition(1400000),
-  calcRiderPosition(2100000),
-  calcRiderPosition(5100000)
+let riders1 = [
+  {
+    id: 1,
+    distance_in_meters: 4567895
+  },
+  {
+    id: 2,
+    distance_in_meters: 2567895
+  },
+  {
+    id: 3,
+    distance_in_meters: 1567895
+  },
+  {
+    id: 4,
+    distance_in_meters: 4567895
+  },
+  {
+    id: 5,
+    distance_in_meters: 4136895
+  }
 ]
 
-var riderIcon = L.divIcon({
-  iconSize: new L.Point(16, 16),
-  html: '<div class="gsc-MapMarker" />'
+let riders2 = [
+  {
+    id: 6,
+    distance_in_meters: 2567895
+  },
+  {
+    id: 7,
+    distance_in_meters: 4567895
+  },
+  {
+    id: 8,
+    distance_in_meters: 3567895
+  },
+  {
+    id: 9,
+    distance_in_meters: 1567895
+  },
+  {
+    id: 10,
+    distance_in_meters: 4136895
+  }
+]
+
+let Example = React.createClass({
+  getInitialState () {
+    return {}
+  },
+  render () {
+    return (
+      <div>
+        <RaceMap
+          route={ route }
+          racers={ this.state.riders || riders1 }
+          selectedRacer={ 2 } />
+        <div className="leader-list-selector">
+          <button onClick={ () => { this.setState({ riders: riders1 }) } }>Riders 1</button>
+          <button onClick={ () => { this.setState({ riders: riders2 }) } }>Riders 2</button>
+        </div>
+      </div>
+    )
+  }
 })
 
-riderPositions.forEach((position) => {
-  L.marker(position, { icon: riderIcon }).addTo(map)
-})
+React.render(<Example />, document.getElementById('race-map'))
 
-map.fitBounds(riderPositions, {
-  padding: [50, 50]
-})

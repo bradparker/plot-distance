@@ -16,16 +16,14 @@
     "watch": "npm run watch-scripts & npm run watch-styles & npm run watch-images & npm run watch-index",
     "serve": "static dist",
     "dev": "npm run watch & npm run serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel/register --recursive source/**/__tests__/**-test.js"
   },
   "author": "Brad Parker <hi@bradparker.com>",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^6.0.3",
-    "babelify": "^6.3.0",
     "leaflet": "^0.7.5",
-    "leaflet-routing-machine": "^2.5.0",
-    "postcss-cli": "^2.2.0"
+    "lodash": "^3.10.1",
+    "react": "^0.13.3"
   },
   "browserify": {
     "transform": [
@@ -45,9 +43,17 @@
     }
   },
   "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "babel": "^5.8.23",
+    "babelify": "^6.3.0",
     "browserify": "^11.2.0",
+    "chai": "^3.3.0",
+    "jsdom": "^3.1.2",
+    "mocha": "^2.3.3",
+    "mocha-jsdom": "^1.0.0",
     "node-static": "^0.7.7",
     "nodemon": "^1.7.1",
+    "postcss-cli": "^2.2.0",
     "postcss-import": "^7.0.0"
   }
 }

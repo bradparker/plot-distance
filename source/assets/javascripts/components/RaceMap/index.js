@@ -57,7 +57,7 @@ export default React.createClass({
     let markers = this.state.markers
     let selectedMarker = this.state.selectedMarker
     map.off('popupclose', this.handlePopupClose)
-    selectedMarker.removeLayer(marker)
+    selectedMarker.clearLayers()
     markers.addLayer(marker)
     map.on('popupclose', this.handlePopupClose)
   },
@@ -103,8 +103,9 @@ export default React.createClass({
   },
 
   componentWillReceiveProps (nextProps) {
-    this.clearRenderedRacers()
-    this.renderRacers(nextProps.racers)
+    if (nextProps.selectedRacer.toString() !== (this.state.selectedRacer && this.state.selectedRacer.toString())) {
+      this.selectRacer(nextProps.selectedRacer)
+    }
   },
 
   findRacerRouteStartingDatum (distance) {

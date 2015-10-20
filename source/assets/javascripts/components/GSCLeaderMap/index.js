@@ -43,11 +43,12 @@ export default React.createClass({
 
   render () {
     return (
-      <RaceMap
-        route={ routeData }
-        onRacerSelection={ this.props.onTeamSelection }
-        selectedRacer={ this.props.selectedTeam }
-        racers={ this.state.teams } />
+        !!this.state.teams.length &&
+          <RaceMap
+            route={ routeData }
+            onRacerSelection={ this.props.onTeamSelection }
+            selectedRacer={ this.props.selectedTeam }
+            racers={ this.state.teams } />
     )
   }
 })

@@ -1,0 +1,2500 @@
+{
+  "results": [
+    {
+      "count": 0,
+      "calories": 2268064.7,
+      "elevation_in_meters": 2040175.9,
+      "distance_in_meters": 3562697,
+      "duration_in_seconds": 4266194.8,
+      "team": {
+        "id": 0,
+        "name": "Zanity",
+        "url": "http://google.com/lol",
+        "charity_name": "Zensor",
+        "fundraising_goal": 8790,
+        "fundraising_current": 631,
+        "team_page_id": 0
+      }
+    },
+    {
+      "count": 1,
+      "calories": 3631438.5,
+      "elevation_in_meters": 3342852.2,
+      "distance_in_meters": 1094128.8,
+      "duration_in_seconds": 3058645.8,
+      "team": {
+        "id": 1,
+        "name": "Comveyor",
+        "url": "http://google.com/lol",
+        "charity_name": "Imageflow",
+        "fundraising_goal": 1429,
+        "fundraising_current": 1420,
+        "team_page_id": 1
+      }
+    },
+    {
+      "count": 2,
+      "calories": 3165437.2,
+      "elevation_in_meters": 4012283,
+      "distance_in_meters": 2109753.4,
+      "duration_in_seconds": 441828.8,
+      "team": {
+        "id": 2,
+        "name": "Obliq",
+        "url": "http://google.com/lol",
+        "charity_name": "Orbalix",
+        "fundraising_goal": 1963,
+        "fundraising_current": 899,
+        "team_page_id": 2
+      }
+    },
+    {
+      "count": 3,
+      "calories": 2621614.9,
+      "elevation_in_meters": 1821211.9,
+      "distance_in_meters": 832700.8,
+      "duration_in_seconds": 207012.6,
+      "team": {
+        "id": 3,
+        "name": "Equitox",
+        "url": "http://google.com/lol",
+        "charity_name": "Comtext",
+        "fundraising_goal": 4877,
+        "fundraising_current": 4100,
+        "team_page_id": 3
+      }
+    },
+    {
+      "count": 4,
+      "calories": 5177603.1,
+      "elevation_in_meters": 2784051.5,
+      "distance_in_meters": 4969165.1,
+      "duration_in_seconds": 341103.8,
+      "team": {
+        "id": 4,
+        "name": "Isosphere",
+        "url": "http://google.com/lol",
+        "charity_name": "Qaboos",
+        "fundraising_goal": 3272,
+        "fundraising_current": 2320,
+        "team_page_id": 4
+      }
+    },
+    {
+      "count": 5,
+      "calories": 3638715,
+      "elevation_in_meters": 500433.3,
+      "distance_in_meters": 976618.4,
+      "duration_in_seconds": 4015438.9,
+      "team": {
+        "id": 5,
+        "name": "Mobildata",
+        "url": "http://google.com/lol",
+        "charity_name": "Delphide",
+        "fundraising_goal": 423,
+        "fundraising_current": 226,
+        "team_page_id": 5
+      }
+    },
+    {
+      "count": 6,
+      "calories": 3555595.2,
+      "elevation_in_meters": 4359017.2,
+      "distance_in_meters": 1379679.8,
+      "duration_in_seconds": 3710113.8,
+      "team": {
+        "id": 6,
+        "name": "Bostonic",
+        "url": "http://google.com/lol",
+        "charity_name": "Digiprint",
+        "fundraising_goal": 745,
+        "fundraising_current": 318,
+        "team_page_id": 6
+      }
+    },
+    {
+      "count": 7,
+      "calories": 1844046,
+      "elevation_in_meters": 3731885.1,
+      "distance_in_meters": 83775.7,
+      "duration_in_seconds": 3276657.3,
+      "team": {
+        "id": 7,
+        "name": "Earthwax",
+        "url": "http://google.com/lol",
+        "charity_name": "Comvene",
+        "fundraising_goal": 3975,
+        "fundraising_current": 1434,
+        "team_page_id": 7
+      }
+    },
+    {
+      "count": 8,
+      "calories": 131210.8,
+      "elevation_in_meters": 4499376.3,
+      "distance_in_meters": 285867.4,
+      "duration_in_seconds": 4859591.7,
+      "team": {
+        "id": 8,
+        "name": "Stucco",
+        "url": "http://google.com/lol",
+        "charity_name": "Kangle",
+        "fundraising_goal": 8693,
+        "fundraising_current": 3682,
+        "team_page_id": 8
+      }
+    },
+    {
+      "count": 9,
+      "calories": 1436506.7,
+      "elevation_in_meters": 171042.6,
+      "distance_in_meters": 1683087.6,
+      "duration_in_seconds": 348760.5,
+      "team": {
+        "id": 9,
+        "name": "Pulze",
+        "url": "http://google.com/lol",
+        "charity_name": "Bunga",
+        "fundraising_goal": 5127,
+        "fundraising_current": 1103,
+        "team_page_id": 9
+      }
+    },
+    {
+      "count": 10,
+      "calories": 2742442.5,
+      "elevation_in_meters": 2680039.1,
+      "distance_in_meters": 2894250.9,
+      "duration_in_seconds": 4371311.5,
+      "team": {
+        "id": 10,
+        "name": "Flumbo",
+        "url": "http://google.com/lol",
+        "charity_name": "Inear",
+        "fundraising_goal": 1975,
+        "fundraising_current": 1259,
+        "team_page_id": 10
+      }
+    },
+    {
+      "count": 11,
+      "calories": 4465820.8,
+      "elevation_in_meters": 5112988.5,
+      "distance_in_meters": 1405124.9,
+      "duration_in_seconds": 266925.4,
+      "team": {
+        "id": 11,
+        "name": "Newcube",
+        "url": "http://google.com/lol",
+        "charity_name": "Evidends",
+        "fundraising_goal": 2941,
+        "fundraising_current": 1284,
+        "team_page_id": 11
+      }
+    },
+    {
+      "count": 12,
+      "calories": 278852.4,
+      "elevation_in_meters": 1984548.3,
+      "distance_in_meters": 4051642.2,
+      "duration_in_seconds": 1566340.7,
+      "team": {
+        "id": 12,
+        "name": "Inventure",
+        "url": "http://google.com/lol",
+        "charity_name": "Pyramis",
+        "fundraising_goal": 1661,
+        "fundraising_current": 914,
+        "team_page_id": 12
+      }
+    },
+    {
+      "count": 13,
+      "calories": 4709476.8,
+      "elevation_in_meters": 4975939.8,
+      "distance_in_meters": 869974.4,
+      "duration_in_seconds": 2795818.9,
+      "team": {
+        "id": 13,
+        "name": "Immunics",
+        "url": "http://google.com/lol",
+        "charity_name": "Zentix",
+        "fundraising_goal": 6442,
+        "fundraising_current": 3682,
+        "team_page_id": 13
+      }
+    },
+    {
+      "count": 14,
+      "calories": 2375608.7,
+      "elevation_in_meters": 1918408,
+      "distance_in_meters": 3132695.3,
+      "duration_in_seconds": 4996988.8,
+      "team": {
+        "id": 14,
+        "name": "Artworlds",
+        "url": "http://google.com/lol",
+        "charity_name": "Flotonic",
+        "fundraising_goal": 7580,
+        "fundraising_current": 2298,
+        "team_page_id": 14
+      }
+    },
+    {
+      "count": 15,
+      "calories": 3259207.3,
+      "elevation_in_meters": 246717.8,
+      "distance_in_meters": 2384594.5,
+      "duration_in_seconds": 3856508.1,
+      "team": {
+        "id": 15,
+        "name": "Corepan",
+        "url": "http://google.com/lol",
+        "charity_name": "Extrawear",
+        "fundraising_goal": 1314,
+        "fundraising_current": 520,
+        "team_page_id": 15
+      }
+    },
+    {
+      "count": 16,
+      "calories": 997463.5,
+      "elevation_in_meters": 390382,
+      "distance_in_meters": 287383.1,
+      "duration_in_seconds": 43386.6,
+      "team": {
+        "id": 16,
+        "name": "Junipoor",
+        "url": "http://google.com/lol",
+        "charity_name": "Cosmetex",
+        "fundraising_goal": 9102,
+        "fundraising_current": 5247,
+        "team_page_id": 16
+      }
+    },
+    {
+      "count": 17,
+      "calories": 3207131.2,
+      "elevation_in_meters": 4822908.1,
+      "distance_in_meters": 3202811.1,
+      "duration_in_seconds": 125940.3,
+      "team": {
+        "id": 17,
+        "name": "Insuron",
+        "url": "http://google.com/lol",
+        "charity_name": "Snips",
+        "fundraising_goal": 207,
+        "fundraising_current": 137,
+        "team_page_id": 17
+      }
+    },
+    {
+      "count": 18,
+      "calories": 1045471.2,
+      "elevation_in_meters": 4196105.7,
+      "distance_in_meters": 1572575.6,
+      "duration_in_seconds": 276922.6,
+      "team": {
+        "id": 18,
+        "name": "Zuvy",
+        "url": "http://google.com/lol",
+        "charity_name": "Zboo",
+        "fundraising_goal": 8941,
+        "fundraising_current": 5491,
+        "team_page_id": 18
+      }
+    },
+    {
+      "count": 19,
+      "calories": 5063527.3,
+      "elevation_in_meters": 1663038.8,
+      "distance_in_meters": 117285.5,
+      "duration_in_seconds": 4146766.8,
+      "team": {
+        "id": 19,
+        "name": "Venoflex",
+        "url": "http://google.com/lol",
+        "charity_name": "Aquacine",
+        "fundraising_goal": 4617,
+        "fundraising_current": 3266,
+        "team_page_id": 19
+      }
+    },
+    {
+      "count": 20,
+      "calories": 4622429.1,
+      "elevation_in_meters": 1653075.6,
+      "distance_in_meters": 3359108.8,
+      "duration_in_seconds": 2911792.3,
+      "team": {
+        "id": 20,
+        "name": "Qimonk",
+        "url": "http://google.com/lol",
+        "charity_name": "Frenex",
+        "fundraising_goal": 5595,
+        "fundraising_current": 3167,
+        "team_page_id": 20
+      }
+    },
+    {
+      "count": 21,
+      "calories": 652697.2,
+      "elevation_in_meters": 1318689.7,
+      "distance_in_meters": 315099.4,
+      "duration_in_seconds": 4142817.9,
+      "team": {
+        "id": 21,
+        "name": "Furnafix",
+        "url": "http://google.com/lol",
+        "charity_name": "Fleetmix",
+        "fundraising_goal": 6271,
+        "fundraising_current": 1477,
+        "team_page_id": 21
+      }
+    },
+    {
+      "count": 22,
+      "calories": 2806793.4,
+      "elevation_in_meters": 11248.8,
+      "distance_in_meters": 2815185.7,
+      "duration_in_seconds": 1638849.3,
+      "team": {
+        "id": 22,
+        "name": "Recritube",
+        "url": "http://google.com/lol",
+        "charity_name": "Solgan",
+        "fundraising_goal": 1802,
+        "fundraising_current": 1192,
+        "team_page_id": 22
+      }
+    },
+    {
+      "count": 23,
+      "calories": 218331.6,
+      "elevation_in_meters": 801445.6,
+      "distance_in_meters": 1763416.6,
+      "duration_in_seconds": 2453459.2,
+      "team": {
+        "id": 23,
+        "name": "Ultrimax",
+        "url": "http://google.com/lol",
+        "charity_name": "Gracker",
+        "fundraising_goal": 6076,
+        "fundraising_current": 2886,
+        "team_page_id": 23
+      }
+    },
+    {
+      "count": 24,
+      "calories": 2520713.5,
+      "elevation_in_meters": 4047226.1,
+      "distance_in_meters": 1625182.3,
+      "duration_in_seconds": 2187888.7,
+      "team": {
+        "id": 24,
+        "name": "Suremax",
+        "url": "http://google.com/lol",
+        "charity_name": "Kyaguru",
+        "fundraising_goal": 6768,
+        "fundraising_current": 3960,
+        "team_page_id": 24
+      }
+    },
+    {
+      "count": 25,
+      "calories": 4112637.7,
+      "elevation_in_meters": 2505974,
+      "distance_in_meters": 303152.7,
+      "duration_in_seconds": 4112003.1,
+      "team": {
+        "id": 25,
+        "name": "Terrasys",
+        "url": "http://google.com/lol",
+        "charity_name": "Limozen",
+        "fundraising_goal": 8171,
+        "fundraising_current": 2075,
+        "team_page_id": 25
+      }
+    },
+    {
+      "count": 26,
+      "calories": 245380.2,
+      "elevation_in_meters": 3051468,
+      "distance_in_meters": 2666913,
+      "duration_in_seconds": 2343518.7,
+      "team": {
+        "id": 26,
+        "name": "Balooba",
+        "url": "http://google.com/lol",
+        "charity_name": "Lexicondo",
+        "fundraising_goal": 1463,
+        "fundraising_current": 1111,
+        "team_page_id": 26
+      }
+    },
+    {
+      "count": 27,
+      "calories": 1234231.9,
+      "elevation_in_meters": 4397157.8,
+      "distance_in_meters": 1501144.7,
+      "duration_in_seconds": 4694847.9,
+      "team": {
+        "id": 27,
+        "name": "Petigems",
+        "url": "http://google.com/lol",
+        "charity_name": "Shadease",
+        "fundraising_goal": 2986,
+        "fundraising_current": 2167,
+        "team_page_id": 27
+      }
+    },
+    {
+      "count": 28,
+      "calories": 2661405.4,
+      "elevation_in_meters": 984567.5,
+      "distance_in_meters": 321099.2,
+      "duration_in_seconds": 1982495.9,
+      "team": {
+        "id": 28,
+        "name": "Viagreat",
+        "url": "http://google.com/lol",
+        "charity_name": "Zilch",
+        "fundraising_goal": 4781,
+        "fundraising_current": 3889,
+        "team_page_id": 28
+      }
+    },
+    {
+      "count": 29,
+      "calories": 702065.7,
+      "elevation_in_meters": 2780566.9,
+      "distance_in_meters": 3013851.1,
+      "duration_in_seconds": 1340120.3,
+      "team": {
+        "id": 29,
+        "name": "Webiotic",
+        "url": "http://google.com/lol",
+        "charity_name": "Accel",
+        "fundraising_goal": 3641,
+        "fundraising_current": 120,
+        "team_page_id": 29
+      }
+    },
+    {
+      "count": 30,
+      "calories": 642042,
+      "elevation_in_meters": 4872659.3,
+      "distance_in_meters": 3480246.4,
+      "duration_in_seconds": 3390867.1,
+      "team": {
+        "id": 30,
+        "name": "Boilcat",
+        "url": "http://google.com/lol",
+        "charity_name": "Netplax",
+        "fundraising_goal": 8514,
+        "fundraising_current": 356,
+        "team_page_id": 30
+      }
+    },
+    {
+      "count": 31,
+      "calories": 5109815.1,
+      "elevation_in_meters": 3939095.7,
+      "distance_in_meters": 4411321.7,
+      "duration_in_seconds": 1025824.3,
+      "team": {
+        "id": 31,
+        "name": "Cytrak",
+        "url": "http://google.com/lol",
+        "charity_name": "Plasmox",
+        "fundraising_goal": 7146,
+        "fundraising_current": 2257,
+        "team_page_id": 31
+      }
+    },
+    {
+      "count": 32,
+      "calories": 3028258.7,
+      "elevation_in_meters": 808375.7,
+      "distance_in_meters": 4963836.7,
+      "duration_in_seconds": 2616744.3,
+      "team": {
+        "id": 32,
+        "name": "Fangold",
+        "url": "http://google.com/lol",
+        "charity_name": "Undertap",
+        "fundraising_goal": 4263,
+        "fundraising_current": 1785,
+        "team_page_id": 32
+      }
+    },
+    {
+      "count": 33,
+      "calories": 1880355.1,
+      "elevation_in_meters": 4432049.7,
+      "distance_in_meters": 4718722,
+      "duration_in_seconds": 3995523.3,
+      "team": {
+        "id": 33,
+        "name": "Senmao",
+        "url": "http://google.com/lol",
+        "charity_name": "Zidant",
+        "fundraising_goal": 180,
+        "fundraising_current": 137,
+        "team_page_id": 33
+      }
+    },
+    {
+      "count": 34,
+      "calories": 2108118.6,
+      "elevation_in_meters": 413407.1,
+      "distance_in_meters": 3018078.7,
+      "duration_in_seconds": 192703.5,
+      "team": {
+        "id": 34,
+        "name": "Comtours",
+        "url": "http://google.com/lol",
+        "charity_name": "Buzzworks",
+        "fundraising_goal": 6569,
+        "fundraising_current": 2766,
+        "team_page_id": 34
+      }
+    },
+    {
+      "count": 35,
+      "calories": 1199872.7,
+      "elevation_in_meters": 2026488.2,
+      "distance_in_meters": 3523832.6,
+      "duration_in_seconds": 2606153.5,
+      "team": {
+        "id": 35,
+        "name": "Zillan",
+        "url": "http://google.com/lol",
+        "charity_name": "Insurity",
+        "fundraising_goal": 4289,
+        "fundraising_current": 957,
+        "team_page_id": 35
+      }
+    },
+    {
+      "count": 36,
+      "calories": 1553855.9,
+      "elevation_in_meters": 939517.2,
+      "distance_in_meters": 4175289.7,
+      "duration_in_seconds": 1535546.9,
+      "team": {
+        "id": 36,
+        "name": "Paprikut",
+        "url": "http://google.com/lol",
+        "charity_name": "Visalia",
+        "fundraising_goal": 7127,
+        "fundraising_current": 3764,
+        "team_page_id": 36
+      }
+    },
+    {
+      "count": 37,
+      "calories": 1017413.9,
+      "elevation_in_meters": 383220.7,
+      "distance_in_meters": 1878541.1,
+      "duration_in_seconds": 1876294.5,
+      "team": {
+        "id": 37,
+        "name": "Oatfarm",
+        "url": "http://google.com/lol",
+        "charity_name": "Gaptec",
+        "fundraising_goal": 4137,
+        "fundraising_current": 3722,
+        "team_page_id": 37
+      }
+    },
+    {
+      "count": 38,
+      "calories": 81826.2,
+      "elevation_in_meters": 4724294,
+      "distance_in_meters": 1013734.4,
+      "duration_in_seconds": 4797529.4,
+      "team": {
+        "id": 38,
+        "name": "Kneedles",
+        "url": "http://google.com/lol",
+        "charity_name": "Plasto",
+        "fundraising_goal": 3112,
+        "fundraising_current": 3012,
+        "team_page_id": 38
+      }
+    },
+    {
+      "count": 39,
+      "calories": 1605908.7,
+      "elevation_in_meters": 3355619,
+      "distance_in_meters": 120096.4,
+      "duration_in_seconds": 2635193.6,
+      "team": {
+        "id": 39,
+        "name": "Makingway",
+        "url": "http://google.com/lol",
+        "charity_name": "Anarco",
+        "fundraising_goal": 9763,
+        "fundraising_current": 9595,
+        "team_page_id": 39
+      }
+    },
+    {
+      "count": 40,
+      "calories": 67067.5,
+      "elevation_in_meters": 3420557.1,
+      "distance_in_meters": 3134927.6,
+      "duration_in_seconds": 2054531,
+      "team": {
+        "id": 40,
+        "name": "Eweville",
+        "url": "http://google.com/lol",
+        "charity_name": "Eventix",
+        "fundraising_goal": 4744,
+        "fundraising_current": 679,
+        "team_page_id": 40
+      }
+    },
+    {
+      "count": 41,
+      "calories": 5085368.7,
+      "elevation_in_meters": 4884475.5,
+      "distance_in_meters": 32198.6,
+      "duration_in_seconds": 2048918,
+      "team": {
+        "id": 41,
+        "name": "Apexia",
+        "url": "http://google.com/lol",
+        "charity_name": "Egypto",
+        "fundraising_goal": 6603,
+        "fundraising_current": 2458,
+        "team_page_id": 41
+      }
+    },
+    {
+      "count": 42,
+      "calories": 3831061.2,
+      "elevation_in_meters": 4734136.1,
+      "distance_in_meters": 1787145.8,
+      "duration_in_seconds": 2819827.7,
+      "team": {
+        "id": 42,
+        "name": "Codact",
+        "url": "http://google.com/lol",
+        "charity_name": "Elemantra",
+        "fundraising_goal": 634,
+        "fundraising_current": 514,
+        "team_page_id": 42
+      }
+    },
+    {
+      "count": 43,
+      "calories": 1799451.1,
+      "elevation_in_meters": 1985053,
+      "distance_in_meters": 4775705.9,
+      "duration_in_seconds": 3372328.2,
+      "team": {
+        "id": 43,
+        "name": "Codax",
+        "url": "http://google.com/lol",
+        "charity_name": "Pyramax",
+        "fundraising_goal": 4272,
+        "fundraising_current": 1217,
+        "team_page_id": 43
+      }
+    },
+    {
+      "count": 44,
+      "calories": 2586751.4,
+      "elevation_in_meters": 4888906.7,
+      "distance_in_meters": 621830.2,
+      "duration_in_seconds": 4929441.5,
+      "team": {
+        "id": 44,
+        "name": "Phuel",
+        "url": "http://google.com/lol",
+        "charity_name": "Waterbaby",
+        "fundraising_goal": 597,
+        "fundraising_current": 34,
+        "team_page_id": 44
+      }
+    },
+    {
+      "count": 45,
+      "calories": 1588228,
+      "elevation_in_meters": 4652623.2,
+      "distance_in_meters": 3102522,
+      "duration_in_seconds": 778012.2,
+      "team": {
+        "id": 45,
+        "name": "Shopabout",
+        "url": "http://google.com/lol",
+        "charity_name": "Daisu",
+        "fundraising_goal": 3312,
+        "fundraising_current": 1823,
+        "team_page_id": 45
+      }
+    },
+    {
+      "count": 46,
+      "calories": 2738028,
+      "elevation_in_meters": 4964671,
+      "distance_in_meters": 2405181.6,
+      "duration_in_seconds": 2514059.5,
+      "team": {
+        "id": 46,
+        "name": "Comcur",
+        "url": "http://google.com/lol",
+        "charity_name": "Eschoir",
+        "fundraising_goal": 1717,
+        "fundraising_current": 399,
+        "team_page_id": 46
+      }
+    },
+    {
+      "count": 47,
+      "calories": 4867588.6,
+      "elevation_in_meters": 1056796.6,
+      "distance_in_meters": 3654270,
+      "duration_in_seconds": 2921317.6,
+      "team": {
+        "id": 47,
+        "name": "Talendula",
+        "url": "http://google.com/lol",
+        "charity_name": "Farmage",
+        "fundraising_goal": 6719,
+        "fundraising_current": 5284,
+        "team_page_id": 47
+      }
+    },
+    {
+      "count": 48,
+      "calories": 3742537.8,
+      "elevation_in_meters": 3868334.3,
+      "distance_in_meters": 4742084.4,
+      "duration_in_seconds": 3968306.9,
+      "team": {
+        "id": 48,
+        "name": "Apextri",
+        "url": "http://google.com/lol",
+        "charity_name": "Gink",
+        "fundraising_goal": 5531,
+        "fundraising_current": 4563,
+        "team_page_id": 48
+      }
+    },
+    {
+      "count": 49,
+      "calories": 209493.7,
+      "elevation_in_meters": 1828580.9,
+      "distance_in_meters": 957687.1,
+      "duration_in_seconds": 2216477.9,
+      "team": {
+        "id": 49,
+        "name": "Biohab",
+        "url": "http://google.com/lol",
+        "charity_name": "Neptide",
+        "fundraising_goal": 4946,
+        "fundraising_current": 3276,
+        "team_page_id": 49
+      }
+    },
+    {
+      "count": 50,
+      "calories": 2668221.4,
+      "elevation_in_meters": 2664305.7,
+      "distance_in_meters": 3508182.8,
+      "duration_in_seconds": 4148269.4,
+      "team": {
+        "id": 50,
+        "name": "Acruex",
+        "url": "http://google.com/lol",
+        "charity_name": "Liquicom",
+        "fundraising_goal": 6589,
+        "fundraising_current": 2579,
+        "team_page_id": 50
+      }
+    },
+    {
+      "count": 51,
+      "calories": 3529027.4,
+      "elevation_in_meters": 142068.1,
+      "distance_in_meters": 4918508.4,
+      "duration_in_seconds": 3825303.7,
+      "team": {
+        "id": 51,
+        "name": "Parcoe",
+        "url": "http://google.com/lol",
+        "charity_name": "Comvex",
+        "fundraising_goal": 7317,
+        "fundraising_current": 6178,
+        "team_page_id": 51
+      }
+    },
+    {
+      "count": 52,
+      "calories": 3459951.5,
+      "elevation_in_meters": 2111777.3,
+      "distance_in_meters": 3476097.5,
+      "duration_in_seconds": 5039905,
+      "team": {
+        "id": 52,
+        "name": "Danja",
+        "url": "http://google.com/lol",
+        "charity_name": "Cofine",
+        "fundraising_goal": 7274,
+        "fundraising_current": 435,
+        "team_page_id": 52
+      }
+    },
+    {
+      "count": 53,
+      "calories": 4136809.5,
+      "elevation_in_meters": 2718764,
+      "distance_in_meters": 1610266.4,
+      "duration_in_seconds": 722157.8,
+      "team": {
+        "id": 53,
+        "name": "Colaire",
+        "url": "http://google.com/lol",
+        "charity_name": "Exoswitch",
+        "fundraising_goal": 3826,
+        "fundraising_current": 3796,
+        "team_page_id": 53
+      }
+    },
+    {
+      "count": 54,
+      "calories": 4536486.8,
+      "elevation_in_meters": 4672054.6,
+      "distance_in_meters": 1914893.6,
+      "duration_in_seconds": 130965.8,
+      "team": {
+        "id": 54,
+        "name": "Musaphics",
+        "url": "http://google.com/lol",
+        "charity_name": "Buzzmaker",
+        "fundraising_goal": 807,
+        "fundraising_current": 300,
+        "team_page_id": 54
+      }
+    },
+    {
+      "count": 55,
+      "calories": 3081041.3,
+      "elevation_in_meters": 704940.6,
+      "distance_in_meters": 476739.5,
+      "duration_in_seconds": 765822.9,
+      "team": {
+        "id": 55,
+        "name": "Hivedom",
+        "url": "http://google.com/lol",
+        "charity_name": "Squish",
+        "fundraising_goal": 6391,
+        "fundraising_current": 332,
+        "team_page_id": 55
+      }
+    },
+    {
+      "count": 56,
+      "calories": 516018.4,
+      "elevation_in_meters": 608731.3,
+      "distance_in_meters": 3649251.3,
+      "duration_in_seconds": 1609700,
+      "team": {
+        "id": 56,
+        "name": "Frosnex",
+        "url": "http://google.com/lol",
+        "charity_name": "Netility",
+        "fundraising_goal": 9981,
+        "fundraising_current": 7753,
+        "team_page_id": 56
+      }
+    },
+    {
+      "count": 57,
+      "calories": 1018558.5,
+      "elevation_in_meters": 3986832.9,
+      "distance_in_meters": 4802501.3,
+      "duration_in_seconds": 4051768,
+      "team": {
+        "id": 57,
+        "name": "Zilla",
+        "url": "http://google.com/lol",
+        "charity_name": "Zillidium",
+        "fundraising_goal": 184,
+        "fundraising_current": 113,
+        "team_page_id": 57
+      }
+    },
+    {
+      "count": 58,
+      "calories": 4181950,
+      "elevation_in_meters": 678728,
+      "distance_in_meters": 4605498.3,
+      "duration_in_seconds": 826040.5,
+      "team": {
+        "id": 58,
+        "name": "Duoflex",
+        "url": "http://google.com/lol",
+        "charity_name": "Zytrex",
+        "fundraising_goal": 5263,
+        "fundraising_current": 5098,
+        "team_page_id": 58
+      }
+    },
+    {
+      "count": 59,
+      "calories": 4567494.6,
+      "elevation_in_meters": 3759707.3,
+      "distance_in_meters": 4373345.2,
+      "duration_in_seconds": 2116731.4,
+      "team": {
+        "id": 59,
+        "name": "Zaggle",
+        "url": "http://google.com/lol",
+        "charity_name": "Cinesanct",
+        "fundraising_goal": 5421,
+        "fundraising_current": 5257,
+        "team_page_id": 59
+      }
+    },
+    {
+      "count": 60,
+      "calories": 1526102.5,
+      "elevation_in_meters": 3102694.6,
+      "distance_in_meters": 542034.2,
+      "duration_in_seconds": 50551.6,
+      "team": {
+        "id": 60,
+        "name": "Satiance",
+        "url": "http://google.com/lol",
+        "charity_name": "Xsports",
+        "fundraising_goal": 8281,
+        "fundraising_current": 5501,
+        "team_page_id": 60
+      }
+    },
+    {
+      "count": 61,
+      "calories": 1368629.5,
+      "elevation_in_meters": 2167366.3,
+      "distance_in_meters": 1951199.9,
+      "duration_in_seconds": 2020157.7,
+      "team": {
+        "id": 61,
+        "name": "Eargo",
+        "url": "http://google.com/lol",
+        "charity_name": "Konnect",
+        "fundraising_goal": 8593,
+        "fundraising_current": 8011,
+        "team_page_id": 61
+      }
+    },
+    {
+      "count": 62,
+      "calories": 3920843.6,
+      "elevation_in_meters": 4637058.7,
+      "distance_in_meters": 1550220.9,
+      "duration_in_seconds": 4896226,
+      "team": {
+        "id": 62,
+        "name": "Injoy",
+        "url": "http://google.com/lol",
+        "charity_name": "Amtap",
+        "fundraising_goal": 8441,
+        "fundraising_current": 7097,
+        "team_page_id": 62
+      }
+    },
+    {
+      "count": 63,
+      "calories": 1302814.6,
+      "elevation_in_meters": 3829251.8,
+      "distance_in_meters": 1845596.5,
+      "duration_in_seconds": 2860968.7,
+      "team": {
+        "id": 63,
+        "name": "Skybold",
+        "url": "http://google.com/lol",
+        "charity_name": "Isoplex",
+        "fundraising_goal": 9146,
+        "fundraising_current": 283,
+        "team_page_id": 63
+      }
+    },
+    {
+      "count": 64,
+      "calories": 3313293.4,
+      "elevation_in_meters": 928185.1,
+      "distance_in_meters": 3402146.8,
+      "duration_in_seconds": 4358579.5,
+      "team": {
+        "id": 64,
+        "name": "Geeky",
+        "url": "http://google.com/lol",
+        "charity_name": "Futuris",
+        "fundraising_goal": 6735,
+        "fundraising_current": 242,
+        "team_page_id": 64
+      }
+    },
+    {
+      "count": 65,
+      "calories": 579688.5,
+      "elevation_in_meters": 4345986,
+      "distance_in_meters": 3155127.5,
+      "duration_in_seconds": 3810371.1,
+      "team": {
+        "id": 65,
+        "name": "Octocore",
+        "url": "http://google.com/lol",
+        "charity_name": "Dancity",
+        "fundraising_goal": 5552,
+        "fundraising_current": 3480,
+        "team_page_id": 65
+      }
+    },
+    {
+      "count": 66,
+      "calories": 5183211.4,
+      "elevation_in_meters": 3835110.6,
+      "distance_in_meters": 1334366.8,
+      "duration_in_seconds": 2325842.6,
+      "team": {
+        "id": 66,
+        "name": "Quility",
+        "url": "http://google.com/lol",
+        "charity_name": "Accuprint",
+        "fundraising_goal": 5456,
+        "fundraising_current": 254,
+        "team_page_id": 66
+      }
+    },
+    {
+      "count": 67,
+      "calories": 4811178,
+      "elevation_in_meters": 4817646.7,
+      "distance_in_meters": 1965975.8,
+      "duration_in_seconds": 4830736.3,
+      "team": {
+        "id": 67,
+        "name": "Imperium",
+        "url": "http://google.com/lol",
+        "charity_name": "Gushkool",
+        "fundraising_goal": 6575,
+        "fundraising_current": 6571,
+        "team_page_id": 67
+      }
+    },
+    {
+      "count": 68,
+      "calories": 2890891.1,
+      "elevation_in_meters": 4400338.4,
+      "distance_in_meters": 1935074.8,
+      "duration_in_seconds": 4354676.2,
+      "team": {
+        "id": 68,
+        "name": "Macronaut",
+        "url": "http://google.com/lol",
+        "charity_name": "Norsul",
+        "fundraising_goal": 1059,
+        "fundraising_current": 1034,
+        "team_page_id": 68
+      }
+    },
+    {
+      "count": 69,
+      "calories": 1640298.3,
+      "elevation_in_meters": 5063442.1,
+      "distance_in_meters": 473896.6,
+      "duration_in_seconds": 4105999.7,
+      "team": {
+        "id": 69,
+        "name": "Assurity",
+        "url": "http://google.com/lol",
+        "charity_name": "Digirang",
+        "fundraising_goal": 2605,
+        "fundraising_current": 1132,
+        "team_page_id": 69
+      }
+    },
+    {
+      "count": 70,
+      "calories": 2559434.1,
+      "elevation_in_meters": 4927729,
+      "distance_in_meters": 3625983.5,
+      "duration_in_seconds": 2063134.9,
+      "team": {
+        "id": 70,
+        "name": "Orbaxter",
+        "url": "http://google.com/lol",
+        "charity_name": "Eplosion",
+        "fundraising_goal": 1011,
+        "fundraising_current": 738,
+        "team_page_id": 70
+      }
+    },
+    {
+      "count": 71,
+      "calories": 2866649.7,
+      "elevation_in_meters": 1170589.7,
+      "distance_in_meters": 4559738.9,
+      "duration_in_seconds": 2394663.7,
+      "team": {
+        "id": 71,
+        "name": "Senmei",
+        "url": "http://google.com/lol",
+        "charity_name": "Xylar",
+        "fundraising_goal": 3193,
+        "fundraising_current": 1084,
+        "team_page_id": 71
+      }
+    },
+    {
+      "count": 72,
+      "calories": 1960165.3,
+      "elevation_in_meters": 1688180.3,
+      "distance_in_meters": 4164973.4,
+      "duration_in_seconds": 4240983.1,
+      "team": {
+        "id": 72,
+        "name": "Panzent",
+        "url": "http://google.com/lol",
+        "charity_name": "Jimbies",
+        "fundraising_goal": 5912,
+        "fundraising_current": 3690,
+        "team_page_id": 72
+      }
+    },
+    {
+      "count": 73,
+      "calories": 4709732.7,
+      "elevation_in_meters": 2035814.5,
+      "distance_in_meters": 974249.4,
+      "duration_in_seconds": 2016323.2,
+      "team": {
+        "id": 73,
+        "name": "Bullzone",
+        "url": "http://google.com/lol",
+        "charity_name": "Ultrasure",
+        "fundraising_goal": 1205,
+        "fundraising_current": 361,
+        "team_page_id": 73
+      }
+    },
+    {
+      "count": 74,
+      "calories": 1444206.8,
+      "elevation_in_meters": 1948165.3,
+      "distance_in_meters": 918414.7,
+      "duration_in_seconds": 1701846.6,
+      "team": {
+        "id": 74,
+        "name": "Quilm",
+        "url": "http://google.com/lol",
+        "charity_name": "Renovize",
+        "fundraising_goal": 3146,
+        "fundraising_current": 850,
+        "team_page_id": 74
+      }
+    },
+    {
+      "count": 75,
+      "calories": 3539180.3,
+      "elevation_in_meters": 3239806.6,
+      "distance_in_meters": 1129327.9,
+      "duration_in_seconds": 4725719.6,
+      "team": {
+        "id": 75,
+        "name": "Ovolo",
+        "url": "http://google.com/lol",
+        "charity_name": "Crustatia",
+        "fundraising_goal": 4240,
+        "fundraising_current": 572,
+        "team_page_id": 75
+      }
+    },
+    {
+      "count": 76,
+      "calories": 3563047.3,
+      "elevation_in_meters": 2122122,
+      "distance_in_meters": 3769338.1,
+      "duration_in_seconds": 2287205.9,
+      "team": {
+        "id": 76,
+        "name": "Zilidium",
+        "url": "http://google.com/lol",
+        "charity_name": "Rodeology",
+        "fundraising_goal": 4592,
+        "fundraising_current": 2084,
+        "team_page_id": 76
+      }
+    },
+    {
+      "count": 77,
+      "calories": 1556250,
+      "elevation_in_meters": 1913177.5,
+      "distance_in_meters": 623650.4,
+      "duration_in_seconds": 1202450.8,
+      "team": {
+        "id": 77,
+        "name": "Pyramia",
+        "url": "http://google.com/lol",
+        "charity_name": "Dragbot",
+        "fundraising_goal": 1373,
+        "fundraising_current": 1302,
+        "team_page_id": 77
+      }
+    },
+    {
+      "count": 78,
+      "calories": 347669.2,
+      "elevation_in_meters": 2053746.3,
+      "distance_in_meters": 3173302.3,
+      "duration_in_seconds": 370462,
+      "team": {
+        "id": 78,
+        "name": "Pathways",
+        "url": "http://google.com/lol",
+        "charity_name": "Accruex",
+        "fundraising_goal": 7339,
+        "fundraising_current": 6497,
+        "team_page_id": 78
+      }
+    },
+    {
+      "count": 79,
+      "calories": 4242219.2,
+      "elevation_in_meters": 1123214.5,
+      "distance_in_meters": 1960260.9,
+      "duration_in_seconds": 590950.8,
+      "team": {
+        "id": 79,
+        "name": "Enquility",
+        "url": "http://google.com/lol",
+        "charity_name": "Zenolux",
+        "fundraising_goal": 7104,
+        "fundraising_current": 6756,
+        "team_page_id": 79
+      }
+    },
+    {
+      "count": 80,
+      "calories": 4323291.4,
+      "elevation_in_meters": 890054.6,
+      "distance_in_meters": 5178354,
+      "duration_in_seconds": 3942308,
+      "team": {
+        "id": 80,
+        "name": "Xiix",
+        "url": "http://google.com/lol",
+        "charity_name": "Nurali",
+        "fundraising_goal": 5387,
+        "fundraising_current": 222,
+        "team_page_id": 80
+      }
+    },
+    {
+      "count": 81,
+      "calories": 222945.2,
+      "elevation_in_meters": 3834190.2,
+      "distance_in_meters": 1414724.4,
+      "duration_in_seconds": 4325554.6,
+      "team": {
+        "id": 81,
+        "name": "Isbol",
+        "url": "http://google.com/lol",
+        "charity_name": "Intrawear",
+        "fundraising_goal": 885,
+        "fundraising_current": 13,
+        "team_page_id": 81
+      }
+    },
+    {
+      "count": 82,
+      "calories": 2240646.7,
+      "elevation_in_meters": 1826498.6,
+      "distance_in_meters": 839233.5,
+      "duration_in_seconds": 3874820.4,
+      "team": {
+        "id": 82,
+        "name": "Furnitech",
+        "url": "http://google.com/lol",
+        "charity_name": "Moreganic",
+        "fundraising_goal": 2326,
+        "fundraising_current": 1610,
+        "team_page_id": 82
+      }
+    },
+    {
+      "count": 83,
+      "calories": 3984664.6,
+      "elevation_in_meters": 1472667.4,
+      "distance_in_meters": 3504445.8,
+      "duration_in_seconds": 31261.3,
+      "team": {
+        "id": 83,
+        "name": "Bulljuice",
+        "url": "http://google.com/lol",
+        "charity_name": "Comvoy",
+        "fundraising_goal": 2100,
+        "fundraising_current": 1523,
+        "team_page_id": 83
+      }
+    },
+    {
+      "count": 84,
+      "calories": 4984033.7,
+      "elevation_in_meters": 1344477.4,
+      "distance_in_meters": 4729353.4,
+      "duration_in_seconds": 3489660.5,
+      "team": {
+        "id": 84,
+        "name": "Trollery",
+        "url": "http://google.com/lol",
+        "charity_name": "Ozean",
+        "fundraising_goal": 4032,
+        "fundraising_current": 61,
+        "team_page_id": 84
+      }
+    },
+    {
+      "count": 85,
+      "calories": 2269746.5,
+      "elevation_in_meters": 3000299.2,
+      "distance_in_meters": 1899150.7,
+      "duration_in_seconds": 4535406.3,
+      "team": {
+        "id": 85,
+        "name": "Equicom",
+        "url": "http://google.com/lol",
+        "charity_name": "Toyletry",
+        "fundraising_goal": 6789,
+        "fundraising_current": 6330,
+        "team_page_id": 85
+      }
+    },
+    {
+      "count": 86,
+      "calories": 1684309.8,
+      "elevation_in_meters": 99052.2,
+      "distance_in_meters": 4758633.3,
+      "duration_in_seconds": 4617899.1,
+      "team": {
+        "id": 86,
+        "name": "Eventage",
+        "url": "http://google.com/lol",
+        "charity_name": "Intradisk",
+        "fundraising_goal": 1017,
+        "fundraising_current": 910,
+        "team_page_id": 86
+      }
+    },
+    {
+      "count": 87,
+      "calories": 2297772.2,
+      "elevation_in_meters": 4080396.1,
+      "distance_in_meters": 600046.6,
+      "duration_in_seconds": 618436.1,
+      "team": {
+        "id": 87,
+        "name": "Terragen",
+        "url": "http://google.com/lol",
+        "charity_name": "Coash",
+        "fundraising_goal": 120,
+        "fundraising_current": 24,
+        "team_page_id": 87
+      }
+    },
+    {
+      "count": 88,
+      "calories": 3601784.4,
+      "elevation_in_meters": 1401294.1,
+      "distance_in_meters": 3075107.1,
+      "duration_in_seconds": 1960707.3,
+      "team": {
+        "id": 88,
+        "name": "Zolavo",
+        "url": "http://google.com/lol",
+        "charity_name": "Enthaze",
+        "fundraising_goal": 8890,
+        "fundraising_current": 4505,
+        "team_page_id": 88
+      }
+    },
+    {
+      "count": 89,
+      "calories": 1045883.2,
+      "elevation_in_meters": 4604382.7,
+      "distance_in_meters": 4225592.1,
+      "duration_in_seconds": 3632831.3,
+      "team": {
+        "id": 89,
+        "name": "Acium",
+        "url": "http://google.com/lol",
+        "charity_name": "Krog",
+        "fundraising_goal": 7890,
+        "fundraising_current": 2460,
+        "team_page_id": 89
+      }
+    },
+    {
+      "count": 90,
+      "calories": 1570415.1,
+      "elevation_in_meters": 2067123.3,
+      "distance_in_meters": 4406172,
+      "duration_in_seconds": 4703859.2,
+      "team": {
+        "id": 90,
+        "name": "Xumonk",
+        "url": "http://google.com/lol",
+        "charity_name": "Signidyne",
+        "fundraising_goal": 5874,
+        "fundraising_current": 1892,
+        "team_page_id": 90
+      }
+    },
+    {
+      "count": 91,
+      "calories": 3000387.3,
+      "elevation_in_meters": 413746.5,
+      "distance_in_meters": 2736273.2,
+      "duration_in_seconds": 178398.4,
+      "team": {
+        "id": 91,
+        "name": "Imaginart",
+        "url": "http://google.com/lol",
+        "charity_name": "Digigene",
+        "fundraising_goal": 9767,
+        "fundraising_current": 8107,
+        "team_page_id": 91
+      }
+    },
+    {
+      "count": 92,
+      "calories": 4412630.6,
+      "elevation_in_meters": 5124182.4,
+      "distance_in_meters": 3703386.5,
+      "duration_in_seconds": 132257.9,
+      "team": {
+        "id": 92,
+        "name": "Vurbo",
+        "url": "http://google.com/lol",
+        "charity_name": "Bleeko",
+        "fundraising_goal": 8445,
+        "fundraising_current": 7232,
+        "team_page_id": 92
+      }
+    },
+    {
+      "count": 93,
+      "calories": 2902526.1,
+      "elevation_in_meters": 16124.7,
+      "distance_in_meters": 2433603.2,
+      "duration_in_seconds": 3134412.5,
+      "team": {
+        "id": 93,
+        "name": "Singavera",
+        "url": "http://google.com/lol",
+        "charity_name": "Harmoney",
+        "fundraising_goal": 5634,
+        "fundraising_current": 2788,
+        "team_page_id": 93
+      }
+    },
+    {
+      "count": 94,
+      "calories": 2938197.1,
+      "elevation_in_meters": 1352583.8,
+      "distance_in_meters": 4755436.5,
+      "duration_in_seconds": 1261272.8,
+      "team": {
+        "id": 94,
+        "name": "Enersol",
+        "url": "http://google.com/lol",
+        "charity_name": "Genmy",
+        "fundraising_goal": 2787,
+        "fundraising_current": 2200,
+        "team_page_id": 94
+      }
+    },
+    {
+      "count": 95,
+      "calories": 4017132.9,
+      "elevation_in_meters": 2191723,
+      "distance_in_meters": 317585.5,
+      "duration_in_seconds": 1165727.2,
+      "team": {
+        "id": 95,
+        "name": "Bittor",
+        "url": "http://google.com/lol",
+        "charity_name": "Xyqag",
+        "fundraising_goal": 6466,
+        "fundraising_current": 1287,
+        "team_page_id": 95
+      }
+    },
+    {
+      "count": 96,
+      "calories": 2494473.8,
+      "elevation_in_meters": 1350731.2,
+      "distance_in_meters": 4393333.5,
+      "duration_in_seconds": 4367237.2,
+      "team": {
+        "id": 96,
+        "name": "Splinx",
+        "url": "http://google.com/lol",
+        "charity_name": "Ezentia",
+        "fundraising_goal": 7872,
+        "fundraising_current": 1498,
+        "team_page_id": 96
+      }
+    },
+    {
+      "count": 97,
+      "calories": 2972708.9,
+      "elevation_in_meters": 5124775.5,
+      "distance_in_meters": 3283110.4,
+      "duration_in_seconds": 3202410.9,
+      "team": {
+        "id": 97,
+        "name": "Kaggle",
+        "url": "http://google.com/lol",
+        "charity_name": "Blanet",
+        "fundraising_goal": 1782,
+        "fundraising_current": 988,
+        "team_page_id": 97
+      }
+    },
+    {
+      "count": 98,
+      "calories": 570517.5,
+      "elevation_in_meters": 259865.6,
+      "distance_in_meters": 4840100.2,
+      "duration_in_seconds": 4725607.1,
+      "team": {
+        "id": 98,
+        "name": "Idealis",
+        "url": "http://google.com/lol",
+        "charity_name": "Besto",
+        "fundraising_goal": 8540,
+        "fundraising_current": 7446,
+        "team_page_id": 98
+      }
+    },
+    {
+      "count": 99,
+      "calories": 226082.1,
+      "elevation_in_meters": 3962749.2,
+      "distance_in_meters": 138012.7,
+      "duration_in_seconds": 3145266.4,
+      "team": {
+        "id": 99,
+        "name": "Momentia",
+        "url": "http://google.com/lol",
+        "charity_name": "Kraggle",
+        "fundraising_goal": 8606,
+        "fundraising_current": 2850,
+        "team_page_id": 99
+      }
+    },
+    {
+      "count": 100,
+      "calories": 2932741.7,
+      "elevation_in_meters": 773967.5,
+      "distance_in_meters": 520930.6,
+      "duration_in_seconds": 818658,
+      "team": {
+        "id": 100,
+        "name": "Pyrami",
+        "url": "http://google.com/lol",
+        "charity_name": "Zosis",
+        "fundraising_goal": 5996,
+        "fundraising_current": 5145,
+        "team_page_id": 100
+      }
+    },
+    {
+      "count": 101,
+      "calories": 2244550.9,
+      "elevation_in_meters": 615252,
+      "distance_in_meters": 298722.5,
+      "duration_in_seconds": 4522751.6,
+      "team": {
+        "id": 101,
+        "name": "Polarium",
+        "url": "http://google.com/lol",
+        "charity_name": "Interfind",
+        "fundraising_goal": 5067,
+        "fundraising_current": 2031,
+        "team_page_id": 101
+      }
+    },
+    {
+      "count": 102,
+      "calories": 2166621.2,
+      "elevation_in_meters": 1716501.8,
+      "distance_in_meters": 4004999.9,
+      "duration_in_seconds": 3422266.2,
+      "team": {
+        "id": 102,
+        "name": "Niquent",
+        "url": "http://google.com/lol",
+        "charity_name": "Zilencio",
+        "fundraising_goal": 876,
+        "fundraising_current": 112,
+        "team_page_id": 102
+      }
+    },
+    {
+      "count": 103,
+      "calories": 3818203.8,
+      "elevation_in_meters": 269524.4,
+      "distance_in_meters": 4290777,
+      "duration_in_seconds": 4188323.2,
+      "team": {
+        "id": 103,
+        "name": "Fishland",
+        "url": "http://google.com/lol",
+        "charity_name": "Isopop",
+        "fundraising_goal": 3831,
+        "fundraising_current": 1888,
+        "team_page_id": 103
+      }
+    },
+    {
+      "count": 104,
+      "calories": 286695.8,
+      "elevation_in_meters": 4125505.5,
+      "distance_in_meters": 2075831.5,
+      "duration_in_seconds": 3116408.3,
+      "team": {
+        "id": 104,
+        "name": "Geekwagon",
+        "url": "http://google.com/lol",
+        "charity_name": "Vitricomp",
+        "fundraising_goal": 6714,
+        "fundraising_current": 5836,
+        "team_page_id": 104
+      }
+    },
+    {
+      "count": 105,
+      "calories": 3501430.9,
+      "elevation_in_meters": 1814510.1,
+      "distance_in_meters": 1587588.2,
+      "duration_in_seconds": 3624031.7,
+      "team": {
+        "id": 105,
+        "name": "Canopoly",
+        "url": "http://google.com/lol",
+        "charity_name": "Megall",
+        "fundraising_goal": 8488,
+        "fundraising_current": 310,
+        "team_page_id": 105
+      }
+    },
+    {
+      "count": 106,
+      "calories": 2683206.7,
+      "elevation_in_meters": 4974642.3,
+      "distance_in_meters": 274221.8,
+      "duration_in_seconds": 1796638.6,
+      "team": {
+        "id": 106,
+        "name": "Ontality",
+        "url": "http://google.com/lol",
+        "charity_name": "Pharmacon",
+        "fundraising_goal": 8283,
+        "fundraising_current": 1000,
+        "team_page_id": 106
+      }
+    },
+    {
+      "count": 107,
+      "calories": 1900236.5,
+      "elevation_in_meters": 4116447.1,
+      "distance_in_meters": 3406328.8,
+      "duration_in_seconds": 3303821.2,
+      "team": {
+        "id": 107,
+        "name": "Kengen",
+        "url": "http://google.com/lol",
+        "charity_name": "Geekko",
+        "fundraising_goal": 3648,
+        "fundraising_current": 33,
+        "team_page_id": 107
+      }
+    },
+    {
+      "count": 108,
+      "calories": 1796030.7,
+      "elevation_in_meters": 1419206.1,
+      "distance_in_meters": 2058200.1,
+      "duration_in_seconds": 430246.7,
+      "team": {
+        "id": 108,
+        "name": "Earwax",
+        "url": "http://google.com/lol",
+        "charity_name": "Geekola",
+        "fundraising_goal": 9437,
+        "fundraising_current": 50,
+        "team_page_id": 108
+      }
+    },
+    {
+      "count": 109,
+      "calories": 2197399,
+      "elevation_in_meters": 4528370,
+      "distance_in_meters": 769354.9,
+      "duration_in_seconds": 725358.9,
+      "team": {
+        "id": 109,
+        "name": "Medicroix",
+        "url": "http://google.com/lol",
+        "charity_name": "Waretel",
+        "fundraising_goal": 7971,
+        "fundraising_current": 2682,
+        "team_page_id": 109
+      }
+    },
+    {
+      "count": 110,
+      "calories": 4316315.7,
+      "elevation_in_meters": 4472416.6,
+      "distance_in_meters": 374706.1,
+      "duration_in_seconds": 1998965.3,
+      "team": {
+        "id": 110,
+        "name": "Arctiq",
+        "url": "http://google.com/lol",
+        "charity_name": "Techmania",
+        "fundraising_goal": 4371,
+        "fundraising_current": 1260,
+        "team_page_id": 110
+      }
+    },
+    {
+      "count": 111,
+      "calories": 844087.9,
+      "elevation_in_meters": 1590808.7,
+      "distance_in_meters": 3075623.1,
+      "duration_in_seconds": 2141216.3,
+      "team": {
+        "id": 111,
+        "name": "Sentia",
+        "url": "http://google.com/lol",
+        "charity_name": "Joviold",
+        "fundraising_goal": 4289,
+        "fundraising_current": 2488,
+        "team_page_id": 111
+      }
+    },
+    {
+      "count": 112,
+      "calories": 4261956.9,
+      "elevation_in_meters": 535883.4,
+      "distance_in_meters": 1122967.3,
+      "duration_in_seconds": 2577926.1,
+      "team": {
+        "id": 112,
+        "name": "Yurture",
+        "url": "http://google.com/lol",
+        "charity_name": "Rockyard",
+        "fundraising_goal": 9492,
+        "fundraising_current": 9287,
+        "team_page_id": 112
+      }
+    },
+    {
+      "count": 113,
+      "calories": 1520618,
+      "elevation_in_meters": 4329993.9,
+      "distance_in_meters": 2314913.4,
+      "duration_in_seconds": 3516496.5,
+      "team": {
+        "id": 113,
+        "name": "Quarmony",
+        "url": "http://google.com/lol",
+        "charity_name": "Photobin",
+        "fundraising_goal": 9966,
+        "fundraising_current": 8966,
+        "team_page_id": 113
+      }
+    },
+    {
+      "count": 114,
+      "calories": 3649733.6,
+      "elevation_in_meters": 4116260.5,
+      "distance_in_meters": 1340957,
+      "duration_in_seconds": 793999.3,
+      "team": {
+        "id": 114,
+        "name": "Eyewax",
+        "url": "http://google.com/lol",
+        "charity_name": "Sunclipse",
+        "fundraising_goal": 9563,
+        "fundraising_current": 6131,
+        "team_page_id": 114
+      }
+    },
+    {
+      "count": 115,
+      "calories": 3377710.7,
+      "elevation_in_meters": 4761940.7,
+      "distance_in_meters": 2017084.8,
+      "duration_in_seconds": 761038.1,
+      "team": {
+        "id": 115,
+        "name": "Cytrek",
+        "url": "http://google.com/lol",
+        "charity_name": "Omnigog",
+        "fundraising_goal": 2473,
+        "fundraising_current": 1632,
+        "team_page_id": 115
+      }
+    },
+    {
+      "count": 116,
+      "calories": 81410,
+      "elevation_in_meters": 3898205.9,
+      "distance_in_meters": 4532187.8,
+      "duration_in_seconds": 4502800.8,
+      "team": {
+        "id": 116,
+        "name": "Genekom",
+        "url": "http://google.com/lol",
+        "charity_name": "Zisis",
+        "fundraising_goal": 3716,
+        "fundraising_current": 3232,
+        "team_page_id": 116
+      }
+    },
+    {
+      "count": 117,
+      "calories": 2723671.5,
+      "elevation_in_meters": 3226191.2,
+      "distance_in_meters": 2785428.4,
+      "duration_in_seconds": 539777,
+      "team": {
+        "id": 117,
+        "name": "Comtent",
+        "url": "http://google.com/lol",
+        "charity_name": "Mediot",
+        "fundraising_goal": 1002,
+        "fundraising_current": 603,
+        "team_page_id": 117
+      }
+    },
+    {
+      "count": 118,
+      "calories": 2413741.8,
+      "elevation_in_meters": 5048767.9,
+      "distance_in_meters": 1962975.1,
+      "duration_in_seconds": 1410564.9,
+      "team": {
+        "id": 118,
+        "name": "Electonic",
+        "url": "http://google.com/lol",
+        "charity_name": "Marvane",
+        "fundraising_goal": 4802,
+        "fundraising_current": 1449,
+        "team_page_id": 118
+      }
+    },
+    {
+      "count": 119,
+      "calories": 3210602.9,
+      "elevation_in_meters": 4605880.5,
+      "distance_in_meters": 2922524.4,
+      "duration_in_seconds": 3420535.7,
+      "team": {
+        "id": 119,
+        "name": "Centice",
+        "url": "http://google.com/lol",
+        "charity_name": "Quarx",
+        "fundraising_goal": 7932,
+        "fundraising_current": 7555,
+        "team_page_id": 119
+      }
+    },
+    {
+      "count": 120,
+      "calories": 3552942.6,
+      "elevation_in_meters": 4946629.1,
+      "distance_in_meters": 3335277.7,
+      "duration_in_seconds": 1548131,
+      "team": {
+        "id": 120,
+        "name": "Premiant",
+        "url": "http://google.com/lol",
+        "charity_name": "Matrixity",
+        "fundraising_goal": 569,
+        "fundraising_current": 549,
+        "team_page_id": 120
+      }
+    },
+    {
+      "count": 121,
+      "calories": 3970042.7,
+      "elevation_in_meters": 1882421.6,
+      "distance_in_meters": 1430936.7,
+      "duration_in_seconds": 2354054.1,
+      "team": {
+        "id": 121,
+        "name": "Fibrodyne",
+        "url": "http://google.com/lol",
+        "charity_name": "Ecraze",
+        "fundraising_goal": 344,
+        "fundraising_current": 190,
+        "team_page_id": 121
+      }
+    },
+    {
+      "count": 122,
+      "calories": 2628007.9,
+      "elevation_in_meters": 3990686.1,
+      "distance_in_meters": 2461788.5,
+      "duration_in_seconds": 691809.3,
+      "team": {
+        "id": 122,
+        "name": "Vertide",
+        "url": "http://google.com/lol",
+        "charity_name": "Qot",
+        "fundraising_goal": 916,
+        "fundraising_current": 688,
+        "team_page_id": 122
+      }
+    },
+    {
+      "count": 123,
+      "calories": 5016363.9,
+      "elevation_in_meters": 2982085.5,
+      "distance_in_meters": 5095939.3,
+      "duration_in_seconds": 110801,
+      "team": {
+        "id": 123,
+        "name": "Tetratrex",
+        "url": "http://google.com/lol",
+        "charity_name": "Quonata",
+        "fundraising_goal": 9634,
+        "fundraising_current": 3867,
+        "team_page_id": 123
+      }
+    },
+    {
+      "count": 124,
+      "calories": 3402737.4,
+      "elevation_in_meters": 2643892,
+      "distance_in_meters": 1199247.1,
+      "duration_in_seconds": 2547642.1,
+      "team": {
+        "id": 124,
+        "name": "Peticular",
+        "url": "http://google.com/lol",
+        "charity_name": "Zork",
+        "fundraising_goal": 9063,
+        "fundraising_current": 1801,
+        "team_page_id": 124
+      }
+    },
+    {
+      "count": 125,
+      "calories": 1714834.5,
+      "elevation_in_meters": 2090800.1,
+      "distance_in_meters": 659291.4,
+      "duration_in_seconds": 4368609.9,
+      "team": {
+        "id": 125,
+        "name": "Pheast",
+        "url": "http://google.com/lol",
+        "charity_name": "Mondicil",
+        "fundraising_goal": 5107,
+        "fundraising_current": 3325,
+        "team_page_id": 125
+      }
+    },
+    {
+      "count": 126,
+      "calories": 2776285.6,
+      "elevation_in_meters": 55808.8,
+      "distance_in_meters": 3352372.2,
+      "duration_in_seconds": 675632,
+      "team": {
+        "id": 126,
+        "name": "Keeg",
+        "url": "http://google.com/lol",
+        "charity_name": "Honotron",
+        "fundraising_goal": 1070,
+        "fundraising_current": 774,
+        "team_page_id": 126
+      }
+    },
+    {
+      "count": 127,
+      "calories": 5127068.9,
+      "elevation_in_meters": 3672273.7,
+      "distance_in_meters": 2689788.8,
+      "duration_in_seconds": 3652206.7,
+      "team": {
+        "id": 127,
+        "name": "Escenta",
+        "url": "http://google.com/lol",
+        "charity_name": "Kongene",
+        "fundraising_goal": 8329,
+        "fundraising_current": 7406,
+        "team_page_id": 127
+      }
+    },
+    {
+      "count": 128,
+      "calories": 916394.5,
+      "elevation_in_meters": 400621.9,
+      "distance_in_meters": 4326883,
+      "duration_in_seconds": 3297276.8,
+      "team": {
+        "id": 128,
+        "name": "Polaria",
+        "url": "http://google.com/lol",
+        "charity_name": "Isologica",
+        "fundraising_goal": 715,
+        "fundraising_current": 542,
+        "team_page_id": 128
+      }
+    },
+    {
+      "count": 129,
+      "calories": 2157205.4,
+      "elevation_in_meters": 4632797.8,
+      "distance_in_meters": 4485610.1,
+      "duration_in_seconds": 3678304,
+      "team": {
+        "id": 129,
+        "name": "Pawnagra",
+        "url": "http://google.com/lol",
+        "charity_name": "Optyk",
+        "fundraising_goal": 8759,
+        "fundraising_current": 4747,
+        "team_page_id": 129
+      }
+    },
+    {
+      "count": 130,
+      "calories": 5159610.3,
+      "elevation_in_meters": 1564886.2,
+      "distance_in_meters": 91253.1,
+      "duration_in_seconds": 3769941.2,
+      "team": {
+        "id": 130,
+        "name": "Telepark",
+        "url": "http://google.com/lol",
+        "charity_name": "Kegular",
+        "fundraising_goal": 2453,
+        "fundraising_current": 101,
+        "team_page_id": 130
+      }
+    },
+    {
+      "count": 131,
+      "calories": 107793.4,
+      "elevation_in_meters": 1081246.8,
+      "distance_in_meters": 4805514,
+      "duration_in_seconds": 378815.4,
+      "team": {
+        "id": 131,
+        "name": "Aclima",
+        "url": "http://google.com/lol",
+        "charity_name": "Qnekt",
+        "fundraising_goal": 1325,
+        "fundraising_current": 843,
+        "team_page_id": 131
+      }
+    },
+    {
+      "count": 132,
+      "calories": 4952769.1,
+      "elevation_in_meters": 3775155.5,
+      "distance_in_meters": 4667901.7,
+      "duration_in_seconds": 749659.7,
+      "team": {
+        "id": 132,
+        "name": "Kog",
+        "url": "http://google.com/lol",
+        "charity_name": "Bleendot",
+        "fundraising_goal": 3902,
+        "fundraising_current": 134,
+        "team_page_id": 132
+      }
+    },
+    {
+      "count": 133,
+      "calories": 3095932.5,
+      "elevation_in_meters": 3399258.1,
+      "distance_in_meters": 746824.1,
+      "duration_in_seconds": 2377439.5,
+      "team": {
+        "id": 133,
+        "name": "Twiist",
+        "url": "http://google.com/lol",
+        "charity_name": "Dadabase",
+        "fundraising_goal": 6891,
+        "fundraising_current": 5089,
+        "team_page_id": 133
+      }
+    },
+    {
+      "count": 134,
+      "calories": 653188.8,
+      "elevation_in_meters": 1935381.8,
+      "distance_in_meters": 1667987.7,
+      "duration_in_seconds": 3399765.4,
+      "team": {
+        "id": 134,
+        "name": "Enjola",
+        "url": "http://google.com/lol",
+        "charity_name": "Insuresys",
+        "fundraising_goal": 438,
+        "fundraising_current": 396,
+        "team_page_id": 134
+      }
+    },
+    {
+      "count": 135,
+      "calories": 2777575.7,
+      "elevation_in_meters": 23377.6,
+      "distance_in_meters": 3317501.8,
+      "duration_in_seconds": 1955244.2,
+      "team": {
+        "id": 135,
+        "name": "Talkola",
+        "url": "http://google.com/lol",
+        "charity_name": "Uni",
+        "fundraising_goal": 1240,
+        "fundraising_current": 76,
+        "team_page_id": 135
+      }
+    },
+    {
+      "count": 136,
+      "calories": 4087582.8,
+      "elevation_in_meters": 548593.4,
+      "distance_in_meters": 291535.9,
+      "duration_in_seconds": 2064769.7,
+      "team": {
+        "id": 136,
+        "name": "Hopeli",
+        "url": "http://google.com/lol",
+        "charity_name": "Zounds",
+        "fundraising_goal": 9953,
+        "fundraising_current": 7792,
+        "team_page_id": 136
+      }
+    },
+    {
+      "count": 137,
+      "calories": 2121780.3,
+      "elevation_in_meters": 3588135.3,
+      "distance_in_meters": 5019756.2,
+      "duration_in_seconds": 3942372.3,
+      "team": {
+        "id": 137,
+        "name": "Kinetica",
+        "url": "http://google.com/lol",
+        "charity_name": "Phormula",
+        "fundraising_goal": 1729,
+        "fundraising_current": 247,
+        "team_page_id": 137
+      }
+    },
+    {
+      "count": 138,
+      "calories": 2744499,
+      "elevation_in_meters": 576894.7,
+      "distance_in_meters": 3841354.1,
+      "duration_in_seconds": 3689923.5,
+      "team": {
+        "id": 138,
+        "name": "Fossiel",
+        "url": "http://google.com/lol",
+        "charity_name": "Dognosis",
+        "fundraising_goal": 9289,
+        "fundraising_current": 2017,
+        "team_page_id": 138
+      }
+    },
+    {
+      "count": 139,
+      "calories": 2100735.4,
+      "elevation_in_meters": 4251870.2,
+      "distance_in_meters": 2872450,
+      "duration_in_seconds": 862182.4,
+      "team": {
+        "id": 139,
+        "name": "Tubesys",
+        "url": "http://google.com/lol",
+        "charity_name": "Ziore",
+        "fundraising_goal": 7770,
+        "fundraising_current": 2441,
+        "team_page_id": 139
+      }
+    },
+    {
+      "count": 140,
+      "calories": 799044.7,
+      "elevation_in_meters": 1499529.4,
+      "distance_in_meters": 4361197.2,
+      "duration_in_seconds": 2582191.5,
+      "team": {
+        "id": 140,
+        "name": "Zenco",
+        "url": "http://google.com/lol",
+        "charity_name": "Digique",
+        "fundraising_goal": 566,
+        "fundraising_current": 175,
+        "team_page_id": 140
+      }
+    },
+    {
+      "count": 141,
+      "calories": 4905187.6,
+      "elevation_in_meters": 1280206.9,
+      "distance_in_meters": 3028339.5,
+      "duration_in_seconds": 73404.9,
+      "team": {
+        "id": 141,
+        "name": "Zentry",
+        "url": "http://google.com/lol",
+        "charity_name": "Anivet",
+        "fundraising_goal": 7627,
+        "fundraising_current": 611,
+        "team_page_id": 141
+      }
+    },
+    {
+      "count": 142,
+      "calories": 3088020.7,
+      "elevation_in_meters": 3269172.9,
+      "distance_in_meters": 1732458.7,
+      "duration_in_seconds": 1762928.7,
+      "team": {
+        "id": 142,
+        "name": "Edecine",
+        "url": "http://google.com/lol",
+        "charity_name": "Ecstasia",
+        "fundraising_goal": 6962,
+        "fundraising_current": 4996,
+        "team_page_id": 142
+      }
+    },
+    {
+      "count": 143,
+      "calories": 2321604.6,
+      "elevation_in_meters": 3045641.2,
+      "distance_in_meters": 1358243,
+      "duration_in_seconds": 584599.8,
+      "team": {
+        "id": 143,
+        "name": "Hydrocom",
+        "url": "http://google.com/lol",
+        "charity_name": "Vetron",
+        "fundraising_goal": 9418,
+        "fundraising_current": 4621,
+        "team_page_id": 143
+      }
+    },
+    {
+      "count": 144,
+      "calories": 913322.1,
+      "elevation_in_meters": 2394813.8,
+      "distance_in_meters": 1430153.2,
+      "duration_in_seconds": 4461170.6,
+      "team": {
+        "id": 144,
+        "name": "Eventex",
+        "url": "http://google.com/lol",
+        "charity_name": "Klugger",
+        "fundraising_goal": 8626,
+        "fundraising_current": 6739,
+        "team_page_id": 144
+      }
+    },
+    {
+      "count": 145,
+      "calories": 524401,
+      "elevation_in_meters": 1015184.9,
+      "distance_in_meters": 4040362.7,
+      "duration_in_seconds": 529678.9,
+      "team": {
+        "id": 145,
+        "name": "Glasstep",
+        "url": "http://google.com/lol",
+        "charity_name": "Koffee",
+        "fundraising_goal": 7890,
+        "fundraising_current": 3811,
+        "team_page_id": 145
+      }
+    },
+    {
+      "count": 146,
+      "calories": 753470.1,
+      "elevation_in_meters": 3424937,
+      "distance_in_meters": 107434.3,
+      "duration_in_seconds": 1559569.1,
+      "team": {
+        "id": 146,
+        "name": "Vixo",
+        "url": "http://google.com/lol",
+        "charity_name": "Uplinx",
+        "fundraising_goal": 9657,
+        "fundraising_current": 5590,
+        "team_page_id": 146
+      }
+    },
+    {
+      "count": 147,
+      "calories": 4370838.5,
+      "elevation_in_meters": 5171775.9,
+      "distance_in_meters": 1373452.7,
+      "duration_in_seconds": 5047158.9,
+      "team": {
+        "id": 147,
+        "name": "Irack",
+        "url": "http://google.com/lol",
+        "charity_name": "Bicol",
+        "fundraising_goal": 9421,
+        "fundraising_current": 3018,
+        "team_page_id": 147
+      }
+    },
+    {
+      "count": 148,
+      "calories": 4056786.7,
+      "elevation_in_meters": 1284325.1,
+      "distance_in_meters": 4930094.8,
+      "duration_in_seconds": 4220273.3,
+      "team": {
+        "id": 148,
+        "name": "Zolar",
+        "url": "http://google.com/lol",
+        "charity_name": "Uberlux",
+        "fundraising_goal": 6914,
+        "fundraising_current": 4625,
+        "team_page_id": 148
+      }
+    },
+    {
+      "count": 149,
+      "calories": 4867035.3,
+      "elevation_in_meters": 895535.8,
+      "distance_in_meters": 1202742,
+      "duration_in_seconds": 1068910.2,
+      "team": {
+        "id": 149,
+        "name": "Zoarere",
+        "url": "http://google.com/lol",
+        "charity_name": "Plutorque",
+        "fundraising_goal": 7227,
+        "fundraising_current": 7028,
+        "team_page_id": 149
+      }
+    },
+    {
+      "count": 150,
+      "calories": 2862130.1,
+      "elevation_in_meters": 260005.5,
+      "distance_in_meters": 1683417.4,
+      "duration_in_seconds": 86308.3,
+      "team": {
+        "id": 150,
+        "name": "Xurban",
+        "url": "http://google.com/lol",
+        "charity_name": "Genesynk",
+        "fundraising_goal": 5501,
+        "fundraising_current": 2943,
+        "team_page_id": 150
+      }
+    },
+    {
+      "count": 151,
+      "calories": 4130088.9,
+      "elevation_in_meters": 2584441.4,
+      "distance_in_meters": 419304.8,
+      "duration_in_seconds": 4046364.7,
+      "team": {
+        "id": 151,
+        "name": "Teraprene",
+        "url": "http://google.com/lol",
+        "charity_name": "Quarex",
+        "fundraising_goal": 6743,
+        "fundraising_current": 4619,
+        "team_page_id": 151
+      }
+    },
+    {
+      "count": 152,
+      "calories": 1308708.6,
+      "elevation_in_meters": 2016735.8,
+      "distance_in_meters": 505375.7,
+      "duration_in_seconds": 2116093.3,
+      "team": {
+        "id": 152,
+        "name": "Soprano",
+        "url": "http://google.com/lol",
+        "charity_name": "Hawkster",
+        "fundraising_goal": 8141,
+        "fundraising_current": 1802,
+        "team_page_id": 152
+      }
+    },
+    {
+      "count": 153,
+      "calories": 3809129.9,
+      "elevation_in_meters": 250972.4,
+      "distance_in_meters": 1896470.7,
+      "duration_in_seconds": 366581,
+      "team": {
+        "id": 153,
+        "name": "Earbang",
+        "url": "http://google.com/lol",
+        "charity_name": "Netplode",
+        "fundraising_goal": 8256,
+        "fundraising_current": 3324,
+        "team_page_id": 153
+      }
+    },
+    {
+      "count": 154,
+      "calories": 1888055,
+      "elevation_in_meters": 3468483.6,
+      "distance_in_meters": 3105308,
+      "duration_in_seconds": 333791.6,
+      "team": {
+        "id": 154,
+        "name": "Sulfax",
+        "url": "http://google.com/lol",
+        "charity_name": "Optique",
+        "fundraising_goal": 4994,
+        "fundraising_current": 1284,
+        "team_page_id": 154
+      }
+    },
+    {
+      "count": 155,
+      "calories": 78306.6,
+      "elevation_in_meters": 1892598.7,
+      "distance_in_meters": 2030098.1,
+      "duration_in_seconds": 3623876.4,
+      "team": {
+        "id": 155,
+        "name": "Magneato",
+        "url": "http://google.com/lol",
+        "charity_name": "Isoswitch",
+        "fundraising_goal": 9045,
+        "fundraising_current": 963,
+        "team_page_id": 155
+      }
+    }
+  ]
+}

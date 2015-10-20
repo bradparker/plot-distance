@@ -1,0 +1,129 @@
+.leaflet-div-icon {
+  background-color: transparent;
+  border: none;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: white;
+  box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 2px;
+}
+
+.leaflet-popup-content {
+  margin: 12px 12px;
+}
+
+.gsc-PopupContent {
+  width: 300px;
+}
+
+.gsc-PopupContent {
+  font-size: 14px;
+  color: #444;
+}
+
+.gsc-PopupContent__title {
+  font-size: 1.25em;
+  margin: 0;
+  line-height: 1em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+.gsc-PopupContent__attribute-list {
+  margin: 0;
+}
+
+.gsc-PopupContent__avatar,
+.gsc-PopupContent__summary {
+  float: left;
+}
+
+.gsc-PopupContent__avatar {
+  width: 25%;
+  background-color: #444;
+}
+.gsc-PopupContent__avatar:after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+
+.gsc-PopupContent__summary {
+  width: 75%;
+  padding-left: 12px;
+  box-sizing: border-box;
+}
+
+.gsc-PopupContent__header {
+  margin-bottom: 12px;
+}
+
+.gsc-PopupContent__header:before,
+.gsc-PopupContent__header:after {
+  content: " ";
+  display: table;
+}
+
+.gsc-PopupContent__header:after {
+  clear: both;
+}
+
+.gsc-PopupContent__attribute-name,
+.gsc-PopupContent__attribute-value {
+  display: inline;
+  margin: 0;
+  margin-right: 0.25em;
+}
+
+.gsc-PopupContent__attribute-name {
+  font-weight: 300;
+}
+
+.gsc-PopupContent__attribute-value {
+  font-weight: bold;
+}
+
+.gsc-PopupContent__progress {
+  text-align: center;
+}
+
+.gsc-PopupContent__progress-meter {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #4c80a5;
+}
+
+.gsc-PopupContent__progress-summary {
+  font-size: 0.85em;
+  margin-bottom: 12px;
+  line-height: 1.2em;
+}
+
+.gsc-PopupContent__progress-bar {
+  height: 1em;
+  margin-bottom: 12px;
+  background-color: #bbbbbb;
+  position: relative;
+}
+
+.gsc-PopupContent__call-to-action {
+  appearance: none;
+  cursor: pointer;
+  background-color: #4c80a5;
+  border: none;
+  color: white;
+  padding: 12px;
+  border-radius: 2px;
+  line-height: 1em;
+  display: block;
+  margin: 0;
+  font-size: inherit;
+  width: 100%;
+}

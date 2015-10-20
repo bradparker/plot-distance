@@ -1,7 +1,7 @@
 import React from 'react'
 import L from 'leaflet'
+import 'leaflet.markercluster'
 import find from 'lodash/collection/find'
-import routeData from '../../../data/route.json'
 import Popup from './Popup'
 
 const earthsRadiusInMeters = 6371000
@@ -9,7 +9,7 @@ const toRad = (value) => value * Math.PI / 180
 const toDeg = (value) => value / Math.PI * 180
 
 let racerIcon = L.divIcon({
-  iconSize: new L.Point(16, 16),
+  iconSize: new L.Point(32, 32),
   html: '<div class="gsc-Marker" />'
 })
 
@@ -22,35 +22,84 @@ const NullRouteDatum = {
 export default React.createClass({
   propTypes: {
     racers: React.PropTypes.array,
-    route: React.PropTypes.array
+    route: React.PropTypes.array,
+    onRacerSelection: React.PropTypes.func
   },
 
   getDefaultProps () {
     return {
       racers: [],
-      route: []
+      route: [],
+      onRacerSelection: () => {}
     }
+  },
+
+  openPopup (marker) {
+    let map = this.state.map
+    let markers = this.state.markers
+    let selectedMarker = this.state.selectedMarker
+    map.off('popupclose', this.handlePopupClose)
+    map.off('popupopen', this.handlePopupOpen)
+    markers.removeLayer(marker)
+    selectedMarker.addLayer(marker)
+    marker.openPopup()
+    map.on('popupclose', this.handlePopupClose)
+    map.on('popupopen', this.handlePopupOpen)
+  },
+
+  handlePopupOpen (e) {
+    let marker = e.popup._source
+    this.openPopup(marker)
+  },
+
+  closePopup (marker) {
+    let map = this.state.map
+    let markers = this.state.markers
+    let selectedMarker = this.state.selectedMarker
+    map.off('popupclose', this.handlePopupClose)
+    selectedMarker.removeLayer(marker)
+    markers.addLayer(marker)
+    map.on('popupclose', this.handlePopupClose)
+  },
+
+  handlePopupClose (e) {
+    let marker = e.popup._source
+    this.closePopup(marker)
   },
 
   componentDidMount () {
     let mapContainer = this.refs.map.getDOMNode()
     let map = L.map(mapContainer)
-    let markers = L.featureGroup()
+    let markers = new L.MarkerClusterGroup({
+      showCoverageOnHover: false,
+      disableClusteringAtZoom: 9
+    })
     map.addLayer(markers)
+    let selectedMarker = L.featureGroup()
+    map.addLayer(selectedMarker)
+
     let popupContainer = document.createElement('div')
+    popupContainer.style.display = 'none'
     document.body.appendChild(popupContainer)
 
     this.setState({
       map,
       markers,
+      selectedMarker,
       popupContainer
     }, () => {
-      L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors'
+      L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
       }).addTo(map)
+      map.on('popupopen', this.handlePopupOpen)
+      map.on('popupclose', this.handlePopupClose)
       this.renderRoute()
       this.renderRacers(this.props.racers)
     })
+  },
+
+  shouldComponentUpdate () {
+    return false
   },
 
   componentWillReceiveProps (nextProps) {
@@ -89,26 +138,31 @@ export default React.createClass({
     return [toDeg(racerLat), toDeg(racerLon)]
   },
 
-  selectRacer (id) {
-    let racer = find(this.state.racers, racer => racer.id === id)
+  selectRacer (id, cb) {
+    let selectedRacer = this.state.selectedRacer
+    let previousRacer = find(this.state.racers, (racer) => {
+      return racer.id.toString() === (selectedRacer && selectedRacer.toString())
+    })
+    if (previousRacer) {
+      this.closePopup(previousRacer.marker)
+    }
+    let racer = find(this.state.racers, racer => racer.id.toString() === id.toString())
     this.setState({
       selectedRacer: id
     }, () => {
-      this.state.map.setZoom(6)
-      this.state.map.panTo(racer.marker.getLatLng())
-      racer.marker.openPopup()
+      this.state.map.setView(racer.marker.getLatLng(), 10)
+      this.openPopup(racer.marker)
+      cb && cb(id)
     })
   },
 
   handleMarkerClick (id) {
-    this.setState({
-      selectedRacer: id
-    })
+    this.selectRacer(id, this.props.onRacerSelection)
   },
 
   racersUpdated () {
-    let selectedRacer = find(this.props.racers, (racer) => {
-      return racer.id === this.props.selectedRacer
+    let selectedRacer = find(this.state.racers, (racer) => {
+      return racer.id.toString() === this.props.selectedRacer.toString()
     })
     if (selectedRacer) {
       this.selectRacer(selectedRacer.id)
@@ -127,8 +181,9 @@ export default React.createClass({
       return routeDatum.point
     })
     L.polyline(routePoints, {
-      color: 'red',
-      weight: 3
+      color: '#4c80a5',
+      opacity: 1,
+      weight: 5
     }).addTo(this.state.map)
   },
 
@@ -146,7 +201,7 @@ export default React.createClass({
         let point = this.calcRacerPosition(racer.distance_in_meters)
         let popup = this.renderPopup(racer).getDOMNode()
         let marker = L.marker(point, { icon: racerIcon })
-          .bindPopup(popup)
+          .bindPopup(popup, {offset: new L.Point(0, -32)})
           .on('click', () => {
             this.handleMarkerClick(racer.id)
           })
@@ -164,7 +219,9 @@ export default React.createClass({
     let container = document.createElement('div')
     this.state.popupContainer.appendChild(container)
     return React.render(
-      <Popup onClick={ this.popupClicked } />,
+      <Popup
+        onClick={ this.popupClicked }
+        racer={ racer } />,
       container
     )
   },

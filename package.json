@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "data": "mkdir -p dist/assets/data/ && cp -R source/assets/data dist/assets",
+    "watch-data": "nodemon -x 'npm run data' -w source/assets/data -e json",
     "scripts": "mkdir -p dist/assets/javascripts/ && browserify source/assets/javascripts/index.js -o dist/assets/javascripts/index.js",
     "watch-scripts": "nodemon -x 'npm run scripts' -w source/assets/javascripts",
-    "styles": "mkdir -p dist/assets/stylesheets/ && postcss -u 'postcss-import' -u 'autoprefixer' -o dist/assets/stylesheets/main.css source/assets/stylesheets/main.css",
-    "watch-styles": "nodemon -x 'npm run styles' -w source/assets/stylesheets",
-    "images": "mkdir -p dist/assets/images/ && cp -R source/assets/images dist/assets/images",
-    "watch-images": "nodemon -x 'npm run images' -w source/assets/images",
+    "sass": " rm -f dist/assets/stylesheets/main.css && node-sass --importer ./node_modules/node-sass-globbing -o dist/assets/stylesheets/ source/assets/stylesheets/main.scss",
+    "postcss": "postcss -u 'autoprefixer' -u 'postcss-import' -o dist/assets/stylesheets/main.css dist/assets/stylesheets/main.css",
+    "styles": "mkdir -p dist/assets/stylesheets/ && npm run sass && npm run postcss",
+    "watch-styles": "nodemon -x 'npm run styles' -w source/assets/stylesheets -e scss",
+    "images": "mkdir -p dist/assets/images/ && cp -R source/assets/images dist/assets",
+    "watch-images": "nodemon -x 'npm run images' -w source/assets/images -e png,svg,jpg",
     "index": "mkdir -p dist && cp source/index.html dist/index.html",
     "watch-index": "nodemon -x 'npm run index' -w source -e html",
     "build": "npm run scripts && npm run styles && npm run images && npm run index",
-    "watch": "npm run watch-scripts & npm run watch-styles & npm run watch-images & npm run watch-index",
+    "watch": "npm run watch-data & npm run watch-scripts & npm run watch-styles & npm run watch-images & npm run watch-index",
     "serve": "static dist",
     "dev": "npm run watch & npm run serve",
     "test": "mocha --compilers js:babel/register --recursive source/**/__tests__/**-test.js"
@@ -22,8 +26,10 @@
   "license": "ISC",
   "dependencies": {
     "leaflet": "^0.7.5",
+    "leaflet.markercluster": "^0.4.0",
     "lodash": "^3.10.1",
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "whatwg-fetch": "^0.10.0"
   },
   "browserify": {
     "transform": [
@@ -51,6 +57,8 @@
     "jsdom": "^3.1.2",
     "mocha": "^2.3.3",
     "mocha-jsdom": "^1.0.0",
+    "node-sass": "^3.3.3",
+    "node-sass-globbing": "0.0.23",
     "node-static": "^0.7.7",
     "nodemon": "^1.7.1",
     "postcss-cli": "^2.2.0",

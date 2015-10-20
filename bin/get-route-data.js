@@ -46,7 +46,7 @@ function calcDistance (pointA, pointB) {
 }
 
 function transformPoint (point, index, points, totalDistance) {
-  if (!point) return []
+  if (!point) return {}
 
   let current  = point
   let next     = points[index + 1]

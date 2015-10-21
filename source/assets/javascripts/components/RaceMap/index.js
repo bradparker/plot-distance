@@ -22,7 +22,7 @@ const NullRouteDatum = {
 export default React.createClass({
   propTypes: {
     racers: React.PropTypes.array,
-    route: React.PropTypes.array,
+    route: React.PropTypes.array.isRequired,
     onRacerSelection: React.PropTypes.func
   },
 
@@ -121,9 +121,9 @@ export default React.createClass({
     let startDatum             = this.findRacerRouteStartingDatum(totalDistance)
     let currentBearingDistance = totalDistance - startDatum.totalDistance
     let point                  = startDatum.point
-    let lat                    = toRad(point[0])
-    let lon                    = toRad(point[1])
-    let bearing                = toRad(startDatum.bearing)
+    let lat                    = toRad(point[0]) || 0
+    let lon                    = toRad(point[1]) || 0
+    let bearing                = toRad(startDatum.bearing) || 0
     let angularDistance        = currentBearingDistance / earthsRadiusInMeters
 
     let racerLat = Math.asin(
@@ -163,7 +163,7 @@ export default React.createClass({
 
   racersUpdated () {
     let selectedRacer = find(this.state.racers, (racer) => {
-      return racer.id.toString() === this.props.selectedRacer.toString()
+      return racer.id.toString() === (this.props.selectedRacer && this.props.selectedRacer.toString())
     })
     if (selectedRacer) {
       this.selectRacer(selectedRacer.id)
